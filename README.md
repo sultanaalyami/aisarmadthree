@@ -2,6 +2,19 @@
 
 **Comfyui-rodin** is a 3D generation extension based on [Rodin](https://hyper3d.ai/)-API. It provides many of the functionality nodes currently available in RodinAPI, such as Imgae-to-3D, Text-to-3D, Multiple Images-to-3D, etc. In addition, the extension provides a 3D preview node for Comfyui.
 
+## About the Model / عن النموذج
+
+**English:** This extension uses the **Rodin API** from [Hyper3D](https://hyper3d.ai/), which is a **commercial API service** (not an open-source model). Rodin is a proprietary 3D generation model developed by Deemos Technology. To use this extension, you need to obtain an API key from the [Hyper3D API Dashboard](https://hyper3d.ai/api-dashboard).
+
+**العربية:** يستخدم هذا الامتداد **واجهة برمجة التطبيقات Rodin API** من [Hyper3D](https://hyper3d.ai/)، وهي **خدمة واجهة برمجية تجارية** (وليست نموذجًا مفتوح المصدر). Rodin هو نموذج ملكية خاصة لتوليد النماذج ثلاثية الأبعاد تم تطويره بواسطة شركة Deemos Technology. لاستخدام هذا الامتداد، تحتاج إلى الحصول على مفتاح API من [لوحة تحكم Hyper3D API](https://hyper3d.ai/api-dashboard).
+
+**Note:** Rodin is not an open-source model. It's a cloud-based commercial service that requires:
+- An API key from Hyper3D
+- Internet connection to access the API
+- API usage credits (may incur costs based on usage)
+
+For more information about the Rodin API specifications and capabilities, visit the [Rodin API Documentation](https://developer.hyper3d.ai/).
+
 ## Generate Rodin Models via ComfyUI Custom Node​
 
 This ​​ComfyUI custom node​​ integrates with the Hyper3D API to generate 3D assets using Rodin. Get more information about 'How to use Rodin API' and 'How to get Rodin API KEY' from [Rodin API document](https://developer.hyper3d.ai/)
